@@ -1,0 +1,67 @@
+.reveal .title {
+    font-size: 5rem;
+    font-family: Arial;
+    font-weight: bold;
+    color: darkblue;
+  }
+
+.reveal .subtitle {
+    font-size: 3rem;
+    font-family: Myriad Pro;
+    font-weight: bold;
+    color: maroon;
+  }
+
+.reveal p {
+    font-size: 2.5rem;
+    font-family: Myriad Pro;
+    font-weight:  semi-bold;
+    color: #6d7673
+  }
+
+.reveal {
+    background-color: #f2f2f2;
+    color: #000000;
+  }
+
+.reveal a {
+    color: #0077cc;
+  }
+
+.reveal h1 {
+    color: #2f6e9e;
+    font-family: Myriad Pro;
+    font-weight: bold;
+    font-size: 8rem;
+  }
+
+.reveal h2 {
+    color: #003e85;
+    font-family: Myriad Pro;
+    font-weight: bold;
+    font-size: 5rem;
+  }
+
+.reveal ul, .reveal ol {
+    font-size: 2.5rem;
+    font-family: Myriad Pro;
+    font-weight:  semi-bold;
+    color: #087259
+  }
+
+.reveal .footnote {
+    font-size: smaller;
+    color: gray;
+  }
+
+.logo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 30px;
+  }
+
+ .logo img {
+    width: 400px;
+  }
+

@@ -1,0 +1,128 @@
+---
+title: "Assessment of the Effect of Global Warming on Phytoplankton Biomass in Coastal Waters of Tanzania"
+subtitle: "An Applied Study for Aquatic Sciences"
+author: "Undergraduate Seminar in Marine Ecology"
+date: "2026"
+format: 
+  revealjs:
+    standalone: true
+    embed-resources: true
+    transition: fade
+    highlight-style: ayu-mirage
+code-fold: false
+code-line-numbers: true
+code-overflow: scroll
+logo: images/udsm_logo-new.png
+editor: source
+slide-number: true
+css: style.css
+execute: 
+  echo: false
+  message: false
+  warning: false
+---
+
+```{r}
+#| include: false
+#| warning: false
+#| message: false
+
+require(tidyverse)
+require(readxl)
+require(lubridate)
+require(oce)
+require(ocedata)
+require(magrittr)
+require(gam)
+```
+
+## Learning Objectives
+
+::::: columns
+::: {.column width="50%"}
+1.  **Phytoplankton Ecology**
+    -   Photoautotrophic roles
+    -   Primary production
+    -   Trophic dynamics
+2.  **Climate Forcing**
+    -   Temperature dynamics
+    -   Ocean thermal structure
+    -   Physical-biological coupling
+:::
+
+::: {.column width="50%"}
+3.  **Methodological Approaches**
+    -   Remote sensing applications
+    -   Time series analysis
+    -   Multivariate modeling
+4.  **Applied Implications**
+    -   Fisheries productivity
+    -   Ecosystem services
+    -   Coastal management
+:::
+:::::
+
+---
+
+# CHAPTER ONE: Phytoplankton Ecology
+
+## Phytoplankton: Primary Producers
+
+::::: columns
+::: {.column width="40%"}
+**Definition:** Microscopic photoautotrophic organisms forming the foundation of aquatic food webs
+
+**Systematic Characteristics:** 
+- Unicellular to colonial algae
+- Contain chlorophyll-a (Chl-a) for photosynthesis
+- Osmotic regulation through passive transport
+- Confined to photic zone (depth-dependent)
+
+:::
+
+::: {.column width="60%"}
+
+```{r}
+knitr::include_graphics("images/what is phyto/What_phyto.png")
+```
+
+*Diverse phytoplankton taxa: diatoms, dinoflagellates, coccolithophores*
+
+:::
+:::::
+
+## Ecological Significance
+
+:::::: columns
+::: {.column width="60%"}
+**Net Primary Production (NPP):**
+
+-   Phytoplankton contribute ~50% of global marine NPP
+-   Fix inorganic carbon through photosynthesis
+-   Produce dissolved oxygen through oxygenic photosynthesis
+
+**Trophic Dynamics:**
+
+-   Base of planktonic food webs
+-   Energy transfer to zooplankton and larval fish
+-   Support of pelagic and demersal fisheries
+
+-   **Biogeochemical Cycling:**
+    -   Carbon sequestration in deep ocean
+    -   Regeneration of macro- and micronutrients
+    -   Participation in silicon and nitrogen cycles
+:::
+
+:::: {.column width="40%"}
+::: callout-warning
+## Ecosystem Implications
+
+Phytoplankton biomass perturbations result in:
+
+- Altered energy flow efficiency
+- Food web restructuring
+- Disrupted elemental cycling
+- Trophic cascades to higher predators
+:::
+::::
+::::::
