@@ -72,11 +72,7 @@ require(gam)
 ::: {.column width="40%"}
 **Definition:** Microscopic photoautotrophic organisms forming the foundation of aquatic trophic networks
 
-**Key Characteristics:** 
-- Unicellular to colonial photosynthetic algae
-- Primary pigment: chlorophyll-a (Chl-a)
-- Passive transport via fluid advection
-- Distributed throughout photic zone
+**Key Characteristics:** - Unicellular to colonial photosynthetic algae - Primary pigment: chlorophyll-a (Chl-a) - Passive transport via fluid advection - Distributed throughout photic zone
 :::
 
 ::: {.column width="60%"}
@@ -94,7 +90,7 @@ knitr::include_graphics("images/what is phyto/What_phyto.png")
 ::: {.column width="60%"}
 **Net Primary Production:**
 
--   Phytoplankton contribute ~50% of global marine NPP
+-   Phytoplankton contribute \~50% of global marine NPP
 -   Inorganic carbon fixation through photosynthesis
 -   Dissolved oxygen generation via oxygenic photosynthesis
 
@@ -117,10 +113,10 @@ knitr::include_graphics("images/what is phyto/What_phyto.png")
 
 Phytoplankton biomass changes:
 
-- Alter energy transfer efficiency
-- Restructure food web topology
-- Modify elemental cycling rates
-- Generate trophic cascades
+-   Alter energy transfer efficiency
+-   Restructure food web topology
+-   Modify elemental cycling rates
+-   Generate trophic cascades
 :::
 ::::
 ::::::
@@ -131,17 +127,11 @@ Phytoplankton biomass changes:
 ::: {.column width="50%"}
 **Definition:** Global warming represents sustained increases in Earth's mean surface temperature with documented thermal anomalies in atmospheric and oceanic systems
 
-**Observed Trends:** 
-- Atmospheric warming: ~0.1°C per decade since 1880
-- SST elevation in tropical/subtropical regions
-- Projected warming: 1.1-5.4°C by 2100 (IPCC RCP scenarios)
+**Observed Trends:** - Atmospheric warming: \~0.1°C per decade since 1880 - SST elevation in tropical/subtropical regions - Projected warming: 1.1-5.4°C by 2100 (IPCC RCP scenarios)
 :::
 
 ::: {.column width="50%"}
-**East African Coastal Context:** 
-- Sustained air temperature increase since 1990s
-- SST elevation in Western Indian Ocean
-- Enhanced thermal stratification and pycnocline shoaling
+**East African Coastal Context:** - Sustained air temperature increase since 1990s - SST elevation in Western Indian Ocean - Enhanced thermal stratification and pycnocline shoaling
 
 ![](images/glob_temp_new.png){fig-align="center"} ![](images/tz_airtemp_new.png){fig-align="center"}
 :::
@@ -151,19 +141,11 @@ Phytoplankton biomass changes:
 
 ::::: columns
 ::: {.column width="50%"}
-**Identified Deficiencies:** 
-- Limited empirical thermal effects data on phytoplankton biomass in East African coastal zones
-- Inadequate temporal resolution for trend detection in primary production
-- Insufficient vertical profiling of Chl-a distribution patterns
-- Lack of integrated analysis coupling physical drivers to biological response
+**Identified Deficiencies:** - Limited empirical thermal effects data on phytoplankton biomass in East African coastal zones - Inadequate temporal resolution for trend detection in primary production - Insufficient vertical profiling of Chl-a distribution patterns - Lack of integrated analysis coupling physical drivers to biological response
 :::
 
 ::: {.column width="50%"}
-**Research Strategy:** 
-- Extended time series analysis (18-year period: 2003-2020)
-- Comprehensive vertical water column characterization
-- Integration of satellite-derived and in-situ oceanographic data
-- Multivariate statistical and modeling approaches
+**Research Strategy:** - Extended time series analysis (18-year period: 2003-2020) - Comprehensive vertical water column characterization - Integration of satellite-derived and in-situ oceanographic data - Multivariate statistical and modeling approaches
 
 ![](images/2023_hottest_record.jpg){fig-align="center"}
 :::
@@ -204,7 +186,6 @@ These channels exhibit distinct hydrodynamic regimes and productivity signatures
     -   MODIS Aqua Level-3 products
     -   4 km spatial resolution
     -   Monthly composite datasets
-    
 2.  **Sea Surface Temperature**
     -   MODIS thermal infrared bands
     -   1 km spatial resolution
@@ -217,12 +198,10 @@ These channels exhibit distinct hydrodynamic regimes and productivity signatures
 3.  **Precipitation Fields (CHIRPS)**
     -   Climate Hazards Group InfraRed Precipitation data
     -   6 km resolution, proxy for freshwater and nutrient input
-    
 4.  **Atmospheric Temperature Records**
     -   Tanzania Meteorological Agency stations
     -   4 coastal sites (1997-2017)
     -   Daily to monthly aggregation
-    
 5.  **Riverine Discharge**
     -   Ministry of Water daily measurements
     -   4 river systems (Pangani, Ruvu, Rufiji, Ruvuma)

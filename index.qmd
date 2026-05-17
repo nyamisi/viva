@@ -1043,7 +1043,19 @@ fit.gam2.zanzibar %>%
 
 ![](images/acknoledgement.png)
 
-# THANK YOU FOR COMING
+# THANK YOU FOR LISTENING
+
+```{r}
+#| eval: false
+#| 
+qrcode::qr_code(x = "https://nyamisi.github.io/viva/") |> plot()
+
+ggplot2::ggsave("images/QRCodes/vivaQrcode.png", width = 4, height = 4, units = "in", dpi = 300)
+```
+
+## SCAN TO ACCESS THE PRESENTATION
+
+![](images/QRCodes/vivaQrcode.png){fig-align="center"}
 
 
 ## References
