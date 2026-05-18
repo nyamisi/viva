@@ -1048,9 +1048,9 @@ fit.gam2.zanzibar %>%
 ```{r}
 #| eval: false
 #| 
-qrcode::qr_code(x = "https://nyamisi.github.io/viva/") |> plot()
+# qrcode::qr_code(x = "https://nyamisi.github.io/viva/") |> plot()
 
-ggplot2::ggsave("images/QRCodes/vivaQrcode.png", width = 4, height = 4, units = "in", dpi = 300)
+# ggplot2::ggsave("images/QRCodes/vivaQrcode.png", width = 4, height = 4, units = "in", dpi = 300)
 ```
 
 ## SCAN TO ACCESS THE PRESENTATION
