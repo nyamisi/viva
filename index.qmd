@@ -1045,6 +1045,11 @@ fit.gam2.zanzibar %>%
 
 # THANK YOU FOR LISTENING
 
+## SCAN TO ACCESS THE PRESENTATION
+
+![](images/QRCodes/vivaQrcode.png){fig-align="center"}
+
+
 ```{r}
 #| eval: false
 #| 
